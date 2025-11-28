@@ -28,4 +28,4 @@ Apóyame con un café → https://github.com/sponsors/NoCodeAGILabs
 o aquí → https://ko-fi.com/nocodeagi
 
 Hecho por alguien que no sabe programar.  
-El futuro ya no es de quien programa… es de quien pregunta.
+El futuro es de quien pregunta.
