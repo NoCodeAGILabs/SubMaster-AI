@@ -1,0 +1,19 @@
+Pillow>=9.0.0
+whisper
+moviepy>=1.0.3
+numpy>=1.20.0
+pygame>=2.0.0
+scipy>=1.7.0
+imageio-ffmpeg>=0.4.5
+```
+
+**Notas Importantes:**
+
+1.  **`tkinter` y `ttk`**: Estas son partes de la biblioteca estándar de Python (`Tk`). No necesitan ser listadas en `requirements.txt` de la misma manera que otras bibliotecas porque vienen preinstaladas con Python. Sin embargo, si el usuario final necesita asegurarse de que su entorno Python tiene `tkinter` habilitado (a veces en sistemas Linux puede ser una instalación separada como `python3-tk`), esta lista podría servir como recordatorio. Para un `requirements.txt` estricto de PyPI, las he omitido.
+2.  **`moviepy`**: A veces, `moviepy` puede tener problemas con FFmpeg si no está bien configurado o si las versiones son incompatibles. El parche en tu código ya ayuda con esto.
+3.  **`whisper`**: La instalación de `whisper` puede ser un poco más compleja, ya que a menudo requiere `torch` y `torchaudio`. El `whisper` que se instala con `pip install whisper` generalmente se encarga de instalar las dependencias básicas, pero si hay problemas de rendimiento (GPU), el usuario podría necesitar instalar `torch` con CUDA manualmente.
+4.  **`imageio-ffmpeg`**: Esta es la biblioteca que tu código usa para gestionar FFmpeg, lo cual es excelente para la portabilidad.
+5.  **Versiones:** Las versiones especificadas son sugerencias. Puedes ajustarlas según las versiones exactas que hayas probado y que sabes que funcionan bien en tu entorno.
+
+Para instalar estas dependencias, el usuario ejecutaría:
+`pip install -r requirements.txt`
