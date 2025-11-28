@@ -16,7 +16,7 @@ Subtítulos karaoke virales 100% offline – hecho con prompts
 3. Arrastra tu vídeo → elige efecto → exporta → a reventar redes
 
 ## Demo rápido
-(pon aquí el GIF o vídeo que tengas, arrastrándolo también)
+
 
 ## Próximamente
 - Más efectos  
